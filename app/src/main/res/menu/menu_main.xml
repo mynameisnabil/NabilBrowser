@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.test.nabilbrowser.MainActivity">
+
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Pengaturan"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/tombol_refresh"
+        android:title="Ulang"
+        />
+
+    <item
+        android:id="@+id/tombol_stop"
+        android:title="Hentikan"/>
+
+    <item
+        android:id="@+id/tombol_goback"
+        android:title="Kembali"/>
+
+    <item
+        android:id="@+id/tombol_gofoward"
+        android:title="Maju"/>
+
+</menu>
